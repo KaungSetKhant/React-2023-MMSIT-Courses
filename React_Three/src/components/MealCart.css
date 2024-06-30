@@ -1,0 +1,13 @@
+.icon{
+    z-index: -1;
+}
+.parent:hover .icon{
+    z-index: 1;
+    transition: all 0.2s ease-out;
+}
+.parent:hover img{
+    opacity: 0.7;
+}
+body{
+    background-color: rgb(107, 93, 93);
+}
